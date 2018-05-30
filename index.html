@@ -39,7 +39,6 @@
     <div class="wrapper">
         <nav>
             <ul><a href="index.html"><strong>DfAnalyzer</strong></a></ul>
-            <ul><a href="dfanalyzer-demo.html"><strong>VLDB demo: Spark & DfAnalyzer</strong></a></ul>
             <ul><a href="https://github.com/hpcdb/DfAdapter" target="_blank"><strong>DfAdapter</strong></a></ul>
             <ul><a href="prov-df.html"><strong>PROV-Df</strong></a></ul>
             <ul><a href="applications.html"><strong>Applications</strong></a></ul>
@@ -53,9 +52,14 @@
                 <a id="dfanalyzer" class="anchor" href="#dfanalyzer" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a> DfAnalyzer tool
             </h3>
             <p>
-                DfAnalyzer tool is an instantiation of <a href="https://hpcdb.github.io/armful/" target="_blank">ARMFUL architecture</a> to provide dataflow analysis to scientific applications. By coupling DfAnalyzer components to the source codes of scientific applications, scientific data is extracted and related along a dataflow
-                ready for queries at runtime. DfAnalyzer has features that help monitoring, debugging, provenance registration and steering, all at runtime. Its light components do not harm the parallel performance of the scientific applications. As opposed
-                to SWMS, DfAnalyzer keeps all the parallel execution control at the scientific application code. Therefore, applications may use highly efficient libraries or invoke black-box parallel code. DfAnalyzer can also be used by computational and computer specialists, so that they can incorporate user steering support. When coupled to <a href="https://github.com/hpcdb/DfAdapter">DfAdapter</a> provenance of human interaction data is collected when users adapt a dataflow online (while it is in execution), relates with other data of interest and makes the provenance database available for online analytical queries. Example of possible adaptations are: parameter tuning, dataset reduction, loop changes, etc. 
+                DfAnalyzer tool is an instantiation of <a href="https://hpcdb.github.io/armful/" target="_blank">ARMFUL architecture</a> to provide dataflow analysis to 
+                scientific applications. By coupling DfAnalyzer components to the source codes of scientific applications, scientific data is extracted and related along a dataflow
+                ready for queries at runtime. DfAnalyzer has features that help monitoring, debugging, provenance registration and steering, all at runtime. 
+                Its light components do not harm the parallel performance of the scientific applications. As opposed
+                to SWMS, DfAnalyzer keeps all the parallel execution control at the scientific application code. 
+                Therefore, applications may use highly efficient libraries or invoke black-box parallel code. 
+                DfAnalyzer can also be used by computational and computer specialists, so that they can incorporate user steering support. 
+                When coupled to <a href="https://github.com/hpcdb/DfAdapter" target="_blank">DfAdapter</a> provenance of human interaction data is collected when users adapt a dataflow online (while it is in execution), relates with other data of interest and makes the provenance database available for online analytical queries. Example of possible adaptations are: parameter tuning, dataset reduction, loop changes, etc. 
                 The following table shows the components of DfAnalyzer:
             </p>
             <table style="width:100%">
