@@ -39,7 +39,6 @@
     <div class="wrapper">
         <nav>
             <ul><a href="index.html"><strong>DfAnalyzer</strong></a></ul>
-            <ul><a href="dfanalyzer-demo.html"><strong>VLDB demo: Spark & DfAnalyzer</strong></a></ul>
             <ul><a href="https://github.com/hpcdb/DfAdapter" target="_blank"><strong>DfAdapter</strong></a></ul>
             <ul><a href="prov-df.html"><strong>PROV-Df</strong></a></ul>
             <ul><a href="applications.html"><strong>Applications</strong></a></ul>
@@ -72,10 +71,17 @@
             <h4>
                 Big data application using Apache Spark
             </h4>
-
             <p>
-                A Spark application was modeled for determining which products a mail-order clothing company will have the largest demands among its customers. We also developed a dataset generator that enables us to increase the complexity of data manipulated by this
-                application. Since our workflow system, named as <a href="https://hpcdb.github.io/armful/a-chiron.html" target="_blank">A-Chiron</a>, cannot be coupled to Spark engine, we instrumented this application using DfAnalyzer tool. This integration of a Spark application with DfAnalyzer tool is presented in more detail <a href="https://github.com/vssousa/dfanalyzer-spark">here</a>.
+                A Spark application was modeled for determining which products a mail-order clothing company will have the largest demands among its customers. 
+                More specifically, DfAnalyzer components are being used to support a simple interactive decision system, named SalesForecasts, 
+                in presenting relevant information to the final decision maker. SalesForecasts predicts the sales of each clothing item based on an input dataset. 
+                Furthermore, we developed a dataset generator that enables us to increase the complexity of data manipulated by this application.                 
+                This application motivated us to publish a demonstration paper at VLDB conference 2018. 
+                More details about this demonstration can be found in <a href="https://github.com/vssousa/dfanalyzer-spark">our git repository with a Spark application using DfAnalyzer</a>.
+            </p>
+            <p align="center">
+                <img src="img/dataflow-salesforecasts.png" alt="Spark application: SalesForecasts" width="90%" height="90%">
+                <b><br>Figure 1. Spark application - SalesForecasts</b>
             </p>
 
         </section>
